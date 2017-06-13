@@ -8,9 +8,11 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.esheejo.stats"})
+@ComponentScan(basePackages = {"com.esheejo"})
+@EnableJpaRepositories("com.esheejo.stats.data")
 @EntityScan({"com.esheejo.stats.model"})
 public class DemoApplication{
 	
