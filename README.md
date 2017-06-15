@@ -15,7 +15,7 @@ REST api for sport stats analyser.
 
 This will start Apache tomcat and create the required tables in the database.
 
-## Sample Rest calls
+## Sample REST calls
 
 ### Create User
 - http://localhost:8080/statsmaster/user/add?name=John&email=someemail@someemailprovider.com&username=johnsheehan
