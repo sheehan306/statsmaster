@@ -7,12 +7,11 @@ REST api for sport stats analyser.
 - MySQL
 
 ## How to run App
-Start MySQL
-Create database named: test
-Clone Repo
-On commandline:
- - cd into project
- - mvn spring-boot:run
+- Start MySQL
+- Create database named: test
+- Clone Repo
+- cd into project
+- mvn spring-boot:run
 
 This will start Apache tomcat and create the required tables in the database.
 
